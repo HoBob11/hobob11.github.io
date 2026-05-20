@@ -1,0 +1,49 @@
+
+h1 {
+  color: red;
+}
+
+.intro {
+  background-color: lightblue;
+}
+
+h3 {
+  border-block-color: red;
+}
+p.a {
+  font-family: "Times New Roman", Times, serif;
+}
+body div p.b {
+  text-align: center;
+  color: red;
+}
+body {background-color: lightcyan;}
+img {
+  max-width: 100%;
+  height: auto;
+  /*object-fit: contain;*/
+}
+.layout1 {
+  width: 100%;
+
+  display: flex;
+  gap: 16px;
+
+  justify-content: center;
+}
+div.b {
+  text-align: left;
+}
+.layout2 {
+  width: 100%;
+
+  display: flex;
+  gap: 16px;
+
+  justify-content: flex-end;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
