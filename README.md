@@ -1,1 +1,136 @@
 # hobob11.github.io
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <section class="layout1">
+  <div>
+  <h1>Le Grand Palais Chez Eshebest</h1>
+  <h2>The Perigord's premier gastronomical destination.</h2>
+  <h2>How make the perfect Salade Perigourdine.</h2>
+  </div>
+  </section>
+
+  <section class="layout2">
+<div><img src="https://www.vins-bergeracduras.fr/wp-content/uploads/2022/10/IVBD-salade-perigourdine-blanc-sec_c_photo_Ame%CC%81lie_Roche_Stylisme_Audrey_Cosson.jpg"></div>
+<div class="column">
+<img src="https://www.vins-bergeracduras.fr/wp-content/uploads/2022/10/IVBD-salade-perigourdine-blanc-sec_c_photo_Ame%CC%81lie_Roche_Stylisme_Audrey_Cosson-544.jpg">
+<img src="https://www.vins-bergeracduras.fr/wp-content/uploads/2022/10/IVBD-salade-perigourdine-blanc-sec_c_photo_Ame%CC%81lie_Roche_Stylisme_Audrey_Cosson-450.jpg">
+</div> 
+</section>
+
+
+    <p1 class="intro">The salade périgourdine is a magnificent classic from the Dordogne region, in the southwest of France.  Both rustic and elegant, the dish showcases French regional cuisine at its best.  It is a balanced, nutritious salad that features rich delicacies such as foie gras, walnuts, and quail eggs.  The components are finished with a light yet flavorful red wine vinaigrette.
+    This salad is the signature dish at the Grand Palais Chez Eshebest, the three-star Michelin restaurant in the capital of the Périgord region, Périgueux.  It has been featured in the critically-acclaimed television series “Superlative Chef” starring Gideon Romney.  In addition to three Michelin stars, Chef Patrick Eshebest’s accolades include five toques from Gault & Millau and the prestigious “Meilleur Ouvrier de France.”  He is widely considered to be one of the France’s greatest chefs who has brought Périgordian delicacies to discerning food lovers the world over.</p1>
+
+   <p2>The recipe we describe has been developed and refined by Chef Eshebest over the course of his distinguished career.  Jean-Pierre Réveil, revered food critic for the Dordogne Libre newspaper, has called Eshebest’s périgourdine salad as “a work of art worthy of the Louvre—without a scintilla of a doubt the greatest salad I have ever eaten.”</p1>
+  </body>
+<h4>This recipe serves 4. To complete it, make sure to get the freshest ingredients possible. You will need:</h4>
+<ul>
+<li>280g sliced smoked duck breast</li>
+<li>1 small mi-cuit Périgord foie gras</li>
+<li>200g duck gizzards</li>
+<li>20 new potatoes</li>
+<li>75g Périgord walnuts</li>
+<li>100g Périgord strawberries</li>
+<li>1 tbsp honey</li>
+<li>4 tbsp Périgord walnut oil</li>
+<li>1 tbsp wine vinegar</li>
+<li>11 tsp yellow mustard</li> 
+<li>2 generous handfuls of baby green leaves</li>
+<li>4 slices of sourdough bread</li>
+<li>Sea salt and ground pepper</li>
+</ul>
+<h3>Make sure you follow these steps exactly:</h3>
+<h4>Begin with the potatoes.</h4>
+  <ol>
+  <li>Bring the potatoes to boil and cook until soft.</li>
+  <li>Drain well and leave to cool.</li>
+  <li>Slice into rounds.</li>
+  </ol>
+  <h4>Next, cook the gizzards.</h4>
+  <ol>
+  <li>Brown the gizzards in a hot pan for approximately 5 minutes.</li>
+  <li>Remove and keep warm, leaving the rendered fat in the pan.</li>
+  </ol>
+  <h4>Now, prepare the croutons.</h4>
+  <ol>
+  <li>Brown the slices of bread in the pan with the gizzard fat.</li>
+  <li>Remove from the pan and keep warm.</li>
+  </ol>
+  <h4>Prepare the foie gras.</h4>
+  <ol>
+  <li>Slice the foie gras.</li>
+  <li>Combine the honey, walnut oil, vinegar and mustard in a bowl.</li>
+  <li>Toss the vinaigrette through the baby leaves and season to taste.</li>
+  </ol>
+  <h4>Now, we finish!</h4>
+  <ol>
+  <li>Scatter the seasoned salad in deep plates.</li>
+  <li>Add the potatoes, gizzards, smoked duck slices, walnuts and hulled strawberry quarters.</li> 
+  <li>Place the croutons topped with a slice of foie gras on each plate and serve.</li>
+  </ol>
+  <h4>This salad is to be enjoyed with:</h4>
+  <ul>
+  <li>Bergerac blanc sec</li>
+  <li>Bergerac rosé</li>
+  <li>Côtes de Duras blanc sec</li>
+  <li>Côtes de Duras rosé</li>
+  <li>Montravel blanc sec</li>
+  </ul>
+  <h5>Credits to Bergerac Duras, Vins du Sud-Ouest</h5>
+</html>
+
+style.css
+
+h1 {
+  color: red;
+}
+
+.intro {
+  background-color: lightblue;
+}
+
+h3 {
+  border-block-color: red;
+}
+p.a {
+  font-family: "Times New Roman", Times, serif;
+}
+body div p.b {
+  text-align: center;
+  color: red;
+}
+body {background-color: lightcyan;}
+img {
+  max-width: 100%;
+  height: auto;
+  /*object-fit: contain;*/
+}
+.layout1 {
+  width: 100%;
+
+  display: flex;
+  gap: 16px;
+
+  justify-content: center;
+}
+div.b {
+  text-align: left;
+}
+.layout2 {
+  width: 100%;
+
+  display: flex;
+  gap: 16px;
+
+  justify-content: flex-end;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
